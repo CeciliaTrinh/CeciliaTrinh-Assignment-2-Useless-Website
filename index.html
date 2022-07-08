@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>My Useless Website</title>
+</head>
+<body>
+    
+    <header>
+    <h1>Useless Things to do when you want to waste time</h1>
+    </header>
+
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">This</a>
+        <a href="#site">Site</a>
+        <a href="#does">Does</a>
+        <a href="#nothing">Nothing</a>
+    </nav>
+
+    <br>
+    <br>
+
+    <div class="hello blinking">
+        <p>
+            Hello and Welcome
+        </p>
+    </div>
+
+    <div id="about">
+        <h3>
+            About The Site 
+        </h3>
+
+        <p>
+            This Website includes random things to do if you are bored lol. This site has different types
+            of inputs and and prompts that do nothing.
+        </p>
+    </div>
+
+     <!--User hovers over the boxes below to change their colours-->
+    <div class="prompt-1">
+        <h3>Prompt One</h3>
+
+        <h4>Colour Change Boxes</h4>
+
+        <p class="prompt-description">For this prompt, all you have to do is move your cursor over 
+            the the different boxes to see them chanage.
+        </p>
+
+        <div class="box">
+
+        <div id="prompt-1-box-1"> </div>
+
+        <div id="prompt-1-box-2"> </div>
+
+        <div id="prompt-1-box-3"> </div>
+
+        <div id="prompt-1-box-4"> </div>
+
+        <div id="prompt-1-box-5"> </div>
+
+        <div id="prompt-1-box-6"> </div>
+
+        <div id="prompt-1-box-7"> </div>
+
+        </div>
+
+    </div>
+     <!--User hovers over the boxes below to change their colours-->
+
+    <!--User watches The Big Cirle Race and enters which one won the race and checks their answer-->
+
+
+    <div class="prompt-2">
+        <h3>Prompt Two</h3>
+
+        <h4>Big Circle Race</h4>
+
+        <p class="prompt-description">For this prompt, down below watch the Big Circle Race and record which number you think won and submit 
+            your answer to see if you are right.
+        </p>
+
+        <div class="big-circle-race">
+
+            <div class="circle circle move"></div>
+
+            <br>
+
+            <div class="circle-2 circle-move-2"></div>
+
+            <br>
+
+            <div class="circle-3 circle-move-3"></div>
+
+            <br>
+
+            <div class="circle-4 circle-move-4"></div>
+
+        </div>
+        
+        <div class="race-winner">
+            <p>Who do you think won the race?</p>
+            <input id="user-answer">
+            <br>
+            <br>
+            <button id="answer">Check Your Answer?</button>
+        </div>
+
+    </div>
+
+    <!--User watches The Big Cirle Race and enters which one won the race and checks their answer-->
+
+<!--User watches the disappearing and reappearing numbers and add up the total sum and checks their answer-->
+
+    <div class="prompt-3">
+        <h3>Prompt Three</h3>
+
+        <h4>Random Math Game</h4>
+
+        <p class="prompt-description">For this prompt, view the flashing numbers and add the the total and submit your answer.</p>
+
+        <div class="numbers number-blinking">
+            <p class="one number-1">20</p>
+            <p class="two number-2">5</p>
+            <p class="three number-3">200</p>
+            <p class="four number-4">50</p>
+            <p class="five number-5">20</p>
+            <p class="six number-6">500</p>
+            <p class="seven number-7">20</p>
+            <p class="eight number-8">5</p>
+            <p class="nine number-9">20</p>
+            <p class="ten number-10">5</p>
+            <p class="eleven number-11">5</p>
+            <p class="twelve number-12">20</p>
+            <p class="thriteen number-13">5</p>
+            <p class="fourteen number-14">5</p>
+        </div>
+
+        <div class="number-sum">
+            <p>What is the sum of all these numbers?</p>
+            <input id="user-answer-2">
+            <br>
+            <br>
+            <button id="sum">Check Your Answer?</button>
+        </div>
+
+    </div>
+
+    <!--User watches the disappearing and reappearing numbers and add up the total sum and checks thier answer-->
+
+    <!--User watches the disappearing and reappearing words and figure out the message and checks thier answer-->
+
+    <div class="prompt-4">
+        <h3>Prompt Four</h3>
+
+        <h4>Secret Message Box</h4>
+
+        <p class="prompt-description">For this prompt, down below look for the Secret message and record the message and submit 
+            your answer to see if you are right.
+        </p>
+
+        <div class="secret-message">
+            <div class="secret-message-box">
+                <p class="w-1 word-1">hi</p>
+                <p class="w-2 word-2">Hello there</p>
+                <p class="w-3 word-3">The sercret message is: Pizza</p>
+            </div>
+            <p>What is the sercret message?</p>
+            <input id="user-answer-3">
+            <br>
+            <button id="message">Check Your Answer?</button>
+        </div>
+
+        <!--User watches the disappearing and reappearing words to figure out the message and checks their answer -->
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<h1>Thank for playing</h1>
+<p class="thank-you-message">Thanks visiting my useless website. I hope it helped you waste/pass time. I hope you found this somewhat useful even through it is useless.</p>
+
+
+    
+
+
+
+
+
+
+</body>
+
+<script>
+    let el = document.querySelector('#prompt-1-box-7');
+    el.addEventListener('mouseout', mouseOut);
+
+    function mouseOut() {
+        alert('Congrats!! You have sucussfully changed the colours of the boxes. Feel free to move on to the next prompt.')
+    }
+
+    let al = document.querySelector('#answer');
+    al.addEventListener('click', Click);
+
+    function Click() {
+       if('#user-answer' === 1);
+       alert('You are correct!! Congrats!! Feel free to move on to the next prompt.');
+    } 
+    
+    function Click() {
+        if('#user-answer' != 1);
+        alert('This is the incorrect answer, please try again');
+    }
+
+    let et = document.querySelector('#sum');
+    et.addEventListener('click', Click);
+
+    function Click() {
+        if('#user-answer-2' === 880);
+        alert('The answer is correct!')
+    }
+
+    function Click() {
+        if('#user-answer-2' != 880);
+        alert('This answer in incorrect, please try again')
+    }
+    
+    let pizza = document.querySelector('#message');
+    pizza.addEventListener('click', Click)
+
+    function Click() {
+        if('#user-answer-3' === pizza);
+        alert('you figure out the secret message')
+    }
+
+    function Click() {
+        if('#user-answer-3' != pizza);
+        alert('That is not the secret message')
+    }
+</script>
+
+</html>

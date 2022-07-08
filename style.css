@@ -1,0 +1,546 @@
+/********************************* Header ************************************************/
+
+h1{
+    text-align: center;
+}
+
+/********************************* Header ************************************************/
+
+/********************************* Nav ************************************************/
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/********************************* Nav ************************************************/
+
+/********************************* About Section ************************************************/
+
+#about h3{
+    text-align: center;
+}
+
+#about p{
+    text-align: center;
+}
+
+/********************************* About Section ************************************************/
+
+/********************************* Blinking Animation ************************************************/
+
+.hello{
+    text-align: center;
+}
+
+.blinking{
+    animation: blinking 2s infinite alternate;
+    text-align: center;
+}
+
+@keyframes blinking {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+/********************************* Blinking Animation ************************************************/
+
+/********************************* Titles and Descriptions ************************************************/
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.prompt-description{
+    text-align: center;
+}
+
+/********************************* Titles and Descriptions ************************************************/
+
+/********************************* Prompt One ************************************************/
+
+.box{
+    display: flex;
+}
+
+#prompt-1-box-1{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: darkred;
+    margin-left: 25px;
+}
+
+#prompt-1-box-2{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightcoral;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+#prompt-1-box-3{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: gold;
+    margin-left: 25px;
+}
+
+#prompt-1-box-4{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: olive;
+    margin-left: 25px;
+}
+
+#prompt-1-box-5{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightblue;
+    margin-left: 25px;
+}
+
+#prompt-1-box-6{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: light;
+    margin-left: 25px;
+}
+
+#prompt-1-box-7{
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: darkviolet;
+    margin-left: 25px;
+}
+
+#prompt-1-box-1:hover{
+    transition: 0.5s;
+    background-color: red;
+}
+
+#prompt-1-box-2:hover{
+    transition: 0.5s;
+    background-color: orange;
+}
+
+#prompt-1-box-3:hover{
+    transition: 0.5s;
+    background-color: yellow;
+}
+
+#prompt-1-box-4:hover{
+    transition: 0.5s;
+    background-color:darkgreen;
+}
+
+#prompt-1-box-5:hover{
+    transition: 0.5s;
+    background-color:mediumblue;
+}
+
+#prompt-1-box-6:hover{
+    transition: 0.5s;
+    background-color:purple;
+}
+
+#prompt-1-box-7:hover{
+    transition: 0.5s;
+    background-color:indigo;
+}
+
+/********************************* Prompt One ************************************************/
+
+/********************************* Prompt Two ************************************************/
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: circle-move;
+    animation-timing-function: ease-in-out;
+    animation-duration: 15s;
+}
+
+.circle-2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: circle-move-2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 25s;
+}
+
+.circle-3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: circle-move-3;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+}
+
+.circle-4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: circle-move-4;
+    animation-timing-function: ease-in-out;
+    animation-duration: 60s;
+}
+
+@keyframes circle-move {
+    form{
+        transform: translateX(100px);
+    }
+
+    to{
+        transform: translateX(1600px);
+    }
+}
+
+@keyframes circle-move-2 {
+    form{
+        transform: translateX(100px);
+    }
+
+    to{
+        transform: translateX(1500px);
+    }
+}
+
+@keyframes circle-move-3 {
+    form{
+        transform: translateX(100px);
+    }
+
+    to{
+        transform: translateX(1600px);
+    }
+}
+
+@keyframes circle-move-4 {
+    form{
+        transform: translateX(100px);
+    }
+
+    to{
+        transform: translateX(1600px);
+    }
+}
+
+/********************************* Prompt Two ************************************************/
+
+/********************************* Prompt Three ************************************************/
+
+.number-blinking{
+    animation: number-blinking 2s infinite alternate;
+}
+
+.one{
+    text-align: center;
+    animation: number-1 2s infinite alternate;
+}
+
+.two{
+    animation: number-2 2s infinite alternate;
+}
+
+.three{
+    text-align: right;
+    animation: number-3 2s infinite alternate;
+}
+
+.four{
+    animation: number-4 2s infinite alternate;
+}
+
+.five{
+    text-align: center;
+    animation: number-5 2s infinite alternate;
+}
+
+.six{
+    animation: number-6 2s infinite alternate;
+}
+
+.seven{
+    text-align: right;
+    animation: number-7 2s infinite alternate;
+}
+
+.eight{
+    animation: number-8 2s infinite alternate;
+}
+
+.nine{
+    text-align: center;
+    animation: number-9 2s infinite alternate;
+}
+
+.ten{
+    animation: number-10 2s infinite alternate;
+}
+
+.eleven{
+    text-align: right;
+    animation: number-11 2s infinite alternate;
+}
+
+.twelve{
+    animation: number-12 2s infinite alternate;
+}
+
+.thriteen{
+    text-align: center;
+    animation: number-13 2s infinite alternate;
+}
+
+.fourteen{
+    text-align: right;
+    animation: number-14 2s infinite alternate;
+}
+
+@keyframes number-1  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-2  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-3  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-4  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-5  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-6  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-7  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-8  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-9  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-10  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-11  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-12  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-13  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes number-14  {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+/********************************* Prompt Two ************************************************/
+
+/********************************* Prompt Four ************************************************/
+
+.secret-message-box{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    width: 50%;
+    background-color: tan;
+}
+
+.w-1{
+    color: white;
+    text-align: center;
+    animation: word-1 1s infinite alternate;
+}
+
+.w-2{
+    color: white;
+    text-align: right;
+    animation: word-2 1s infinite alternate;
+}
+
+.w-3{
+    color:white;
+    animation: word-3 1s infinite alternate;
+}
+
+@keyframes word-1 {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes word-2 {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes word-3 {
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}
+
+/********************************* Prompt Four ************************************************/
+
+/********************************* Thank You ************************************************/
+
+.thank-you-message{
+    text-align: center;
+}
+/********************************* Thank you ************************************************/
